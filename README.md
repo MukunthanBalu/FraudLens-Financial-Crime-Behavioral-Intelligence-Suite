@@ -21,35 +21,7 @@ The project demonstrates the full analyst workflow: raw data → cleaning → mo
 
 ### 1. Executive Overview
 High-level KPIs for leadership and risk committees.
-- Total flagged transactions, fraud rate %, and estimated exposure (€)
-- Fraud trend over time (monthly/weekly)
-- Risk distribution by customer segment
-- Top fraud categories and channels
-
-### 2. Forensic Detail
-Drill-down view for fraud analysts and investigators.
-- Individual transaction-level flagging with risk scores
-- Behavioral anomaly indicators (velocity, location, device)
-- Customer journey mapping across flagged events
-- Filters by date range, risk tier, transaction type, and region
-- Origin vs. Destination Balance Analysis to identify "Siphoning" signatures
-
----
-
-## Repository Contents
-
-| File | Description |
-|------|-------------|
-| `FraudLens — Financial Crime & Behavioral Int....twbx` | Tableau packaged workbook (both dashboards) |
-| `Fraud_Small.csv` | Raw transaction dataset used as the data source |
-| `FraudLens_Executive_Overview.png` | Static export — Executive dashboard |
-| `FraudLens_Forensic_Detail.png` | Static export — Forensic detail dashboard |
-| `FraudLens — Financial Crime & Behavioral Int....pdf` | PDF export of both dashboards |
-
----
-
-## Tools & Skills Demonstrated
-
+- Total flagged transactions, fraud rate %, and estimated exposure (€
 - **Tableau Desktop** — dashboard design, calculated fields, LOD expressions, filters
 - **Data modelling** — risk scoring logic, behavioural segmentation
 - **Storytelling** — dual-audience design (executive vs. analyst views)
